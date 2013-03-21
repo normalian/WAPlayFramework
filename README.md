@@ -18,7 +18,6 @@ Cloud Services を利用して、Windows Azure 上で PlayFramework のアプリ
     └─logs
 ```
 
-
 ### start.bat
 ```
 echo off
