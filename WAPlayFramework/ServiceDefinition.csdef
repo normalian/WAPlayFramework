@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ServiceDefinition name="WAPlayFramework" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceDefinition" schemaVersion="2012-10.1.8">
+  <WorkerRole name="WorkerRole1" vmsize="Small">
+    <!--
+    <Startup>
+      <Task executionContext="elevated" taskType="simple" commandLine="setupplay.cmd" />
+    </Startup>
+    -->
+    <Endpoints>
+      <InputEndpoint port="80" localPort="9000" name="http" protocol="tcp" />
+    </Endpoints>
+    <Imports>
+      <Import moduleName="Diagnostics" />
+      <Import moduleName="RemoteAccess" />
+      <Import moduleName="RemoteForwarder" />
+    </Imports>
+    <ConfigurationSettings>
+      <Setting name="PLAY_APP_ZIP_URI" />
+      <Setting name="PLAY_RUNTIME_ZIP_URI" />
+      <Setting name="JRE_ZIP_URI" />
+    </ConfigurationSettings>
+    <LocalResources>
+      <LocalStorage name="LocalStorage1" cleanOnRoleRecycle="true" sizeInMB="1000" />
+    </LocalResources>
+  </WorkerRole>
+</ServiceDefinition>

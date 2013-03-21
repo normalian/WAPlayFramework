@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "WAPlayFramework", "WAPlayFramework\WAPlayFramework.ccproj", "{28D902E4-E758-4246-9B0C-BCEAA84907B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkerRole1", "WorkerRole1\WorkerRole1.csproj", "{81D3E38D-F238-4425-862C-69CCBE123AD0}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://normalian.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = WAPlayFramework\\WAPlayFramework.ccproj
+		SccProjectName1 = WAPlayFramework
+		SccLocalPath1 = WAPlayFramework
+		SccProjectUniqueName2 = WorkerRole1\\WorkerRole1.csproj
+		SccProjectName2 = WorkerRole1
+		SccLocalPath2 = WorkerRole1
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{28D902E4-E758-4246-9B0C-BCEAA84907B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28D902E4-E758-4246-9B0C-BCEAA84907B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28D902E4-E758-4246-9B0C-BCEAA84907B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28D902E4-E758-4246-9B0C-BCEAA84907B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81D3E38D-F238-4425-862C-69CCBE123AD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81D3E38D-F238-4425-862C-69CCBE123AD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81D3E38D-F238-4425-862C-69CCBE123AD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81D3E38D-F238-4425-862C-69CCBE123AD0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
